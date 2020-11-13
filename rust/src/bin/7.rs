@@ -7,15 +7,5 @@
 use common::primes;
 
 fn main() {
-    let mut prime_count = 0;
-    for n in 2..u64::MAX {
-	if primes::is_prime_ascending(n) {
-	    if prime_count == 10000 {
-		println!("{}", n);
-		break;
-	    } else {
-		prime_count += 1;
-	    }
-	}
-    }
+    println!("{}", primes::nth_prime(10000));  // Zero-indexed
 }
