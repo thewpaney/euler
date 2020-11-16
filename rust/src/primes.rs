@@ -106,6 +106,5 @@ mod tests {
 	assert_eq!(is_prime_list(8), false);
 	assert_eq!(is_prime_list(991), true);
 	assert_eq!(is_prime_list(7), true);
-	assert_eq!(is_prime_list(1000), true);
     }
 }

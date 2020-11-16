@@ -1,3 +1,4 @@
+pub mod bignum;
 pub mod digits;
 pub mod factoring;
 pub mod geometry;
